@@ -22,8 +22,8 @@ const MenuCard = ({ menuData }) => {
                     </span>
                     <div className="card-read">Read</div>
                   </div>
-                  {/* <img src={process.env.PUBLIC_URL + image} alt="images" className="card-media" /> */}
-                  <img src="" alt="images" className="card-media" />
+                  <img src={process.env.PUBLIC_URL + image} alt="images" className="card-media" />
+                  {/* <img src={image} alt="images" className="card-media" /> */}
 
                   <span className="card-tag  subtle">Order Now</span>
                 </div>
