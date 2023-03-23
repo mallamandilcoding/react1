@@ -201,7 +201,7 @@ html {
   outline: none;
 }
 .btn-group__item:after {
-  content: "✔️";
+  content: "";
   margin-left: 0.5rem;
   display: inline-block;
   color: rebeccapurple;

@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 
-const Navbar = ({filterItem,menuList}) => {
-  console.log(menuList)
+const navbar = ({ filterItem, menuList }) => {
   return (
-  <>
-   <nav className="navbar">
+    <>
+      <nav className="navbar">
         <div className="btn-group">
           {menuList.map((curElem) => {
             return (
@@ -17,8 +16,8 @@ const Navbar = ({filterItem,menuList}) => {
           })}
         </div>
       </nav>
-  </>
-  )
-}
+    </>
+  );
+};
 
-export default Navbar
+export default navbar;

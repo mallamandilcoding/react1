@@ -1,12 +1,10 @@
 import React from 'react';
-import Restaurant from './component/Basic/Restaurant';
+import Resturant from './component/Basics/Resturant';
 
 const App = () => {
-  return <Restaurant />
+  return <Resturant />
 }
 
-// const MyName = () =>{
-//   return <h5>mandil</h5>
-// }
+
 
 export default App

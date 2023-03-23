@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import Menu from "./MenuApi";
+import Menu from "./menuApi.js";
 import MenuCard from "./MenuCard";
 import Navbar from "./Navbar";
 
@@ -10,7 +10,7 @@ const uniqueList = [
       return curElem.category;
     })
   ),
-    "all"
+  "All",
 ];
 
 console.log(uniqueList);
@@ -20,7 +20,7 @@ const Resturant = () => {
   const [menuList, setMenuList] = useState(uniqueList);
 
   const filterItem = (category) => {
-    if (category === "all") {
+    if (category === "All") {
       setMenuData(Menu);
       return;
     }
